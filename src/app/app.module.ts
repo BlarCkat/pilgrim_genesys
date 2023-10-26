@@ -36,8 +36,6 @@ import { BottomSheetComponent } from './components/sheet/bottom-sheet/bottom-she
 import { ModalComponent } from './components/modal/modal.component';
 import { RadioComponent } from './components/radio/radio.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
-import { ContentComponent } from './components/loading/content/content.component';
-import { PageComponent } from './components/loading/page/page.component';
 import { LoadContentComponent } from './components/loading/load-content/load-content.component';
 import { LoadPageComponent } from './components/loading/load-page/load-page.component';
 import { StepItemComponent } from './components/stepper/step-item/step-item.component';
@@ -49,6 +47,12 @@ import { TimelineComponent } from './components/timeline/timeline.component';
 import { SwitchComponent } from './components/switch/switch.component';
 import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { ToastComponent } from './components/toast/toast.component';
+import { GettingStartedComponent } from './docs/getting-started/getting-started.component';
+import { OverviewComponent } from './docs/overview/overview.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { TypographyComponent } from './foundation/typography/typography.component';
+import { ColorsComponent } from './foundation/colors/colors.component';
+import { TokenizationComponent } from './foundation/tokenization/tokenization.component';
 
 @NgModule({
   declarations: [
@@ -86,8 +90,6 @@ import { ToastComponent } from './components/toast/toast.component';
     ModalComponent,
     RadioComponent,
     CheckboxComponent,
-    ContentComponent,
-    PageComponent,
     LoadContentComponent,
     LoadPageComponent,
     StepItemComponent,
@@ -98,7 +100,13 @@ import { ToastComponent } from './components/toast/toast.component';
     TimelineComponent,
     SwitchComponent,
     TooltipComponent,
-    ToastComponent
+    ToastComponent,
+    GettingStartedComponent,
+    OverviewComponent,
+    LandingPageComponent,
+    TypographyComponent,
+    ColorsComponent,
+    TokenizationComponent
   ],
   imports: [
     BrowserModule,
